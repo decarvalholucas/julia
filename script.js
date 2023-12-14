@@ -64,7 +64,7 @@ function showWord(index) {
     setTimeout(() => {
       document.body.removeChild(wordElement);
       showWord(index + 1); // Chama recursivamente para a próxima palavra
-    }, 100);
+    }, 500);
   }, 1000);
 }
 
