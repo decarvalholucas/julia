@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .word {
+    position: absolute;
+    font-size: 34px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
