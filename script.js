@@ -1,5 +1,5 @@
 const words = ["Oi meu bem", "Eu sou programador", "você sabe", "então", "eu tive que", "fazer essa brincadeirinha", "mas", "enfim", "você realmente", "vai querer saber", "qual é seu presente?","...", "...","...", "...", "posso te contar","mas depois","você não pode","ficar chateada comigo","ok?","Te","Amo","❤️"];
-const finalLinkUrl = "https://wa.me/5522999109160?text=Oi, meu namorado, lindo, gostoso, maravilhoso, eu quero saber qual é meu presente, pode me falar. E eu prometo não brigar com você ou ficar chateada porque você me disse antes da hora.";
+const finalLinkUrl = "https://www.vans.com.br/tenis-ultrarange-rapidweld-black-white/p/1003500430051U";
 
 function getRandomPosition() {
   const screenWidth = window.innerWidth;
