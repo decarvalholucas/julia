@@ -1,4 +1,4 @@
-const words = ["Oi meu bem", "Eu sou programador", "você sabe", "então", "eu tive que", "fazer essa brincadeirinha", "mas", "enfim", "você realmente", "vai querer saber", "qual é seu presente?","...", "...","...", "...", "posso te contar","mas depois","você não pode","ficar chateada comigo",""];
+const words = ["Oi meu bem", "Eu sou programador", "você sabe", "então", "eu tive que", "fazer essa brincadeirinha", "mas", "enfim", "você realmente", "vai querer saber", "qual é seu presente?","...", "...","...", "...", "posso te contar","mas depois","você não pode","ficar chateada comigo","ok?","Te","Amo","❤️"];
 function getRandomPosition() {
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
@@ -37,7 +37,7 @@ function getRandomPosition() {
       setTimeout(() => {
         document.body.removeChild(wordElement);
         showWord(index + 1); // Chama recursivamente para a próxima palavra
-      }, 10000);
+      }, 1000);
     }, 1000);
   }
   
